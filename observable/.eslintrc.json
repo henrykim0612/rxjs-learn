@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "allowImportExportEverywhere": false,
+    "babelOptions": {
+      "configFile": "./babel.config.json"
+    }
+  },
+  "ignorePatterns": ["/dist/*.*"],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+  }
+}
