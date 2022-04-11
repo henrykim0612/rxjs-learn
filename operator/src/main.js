@@ -1,3 +1,3 @@
-import exSelection from './operators/ex-selection';
+import exSkipUntil from './transformations/ex-skip-until';
 
-exSelection();
+exSkipUntil();
