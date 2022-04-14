@@ -1,3 +1,3 @@
-import exSkipUntil from './transformations/ex-skip-until';
+import exConcat from './transformations/ex-concat';
 
-exSkipUntil();
+exConcat();
